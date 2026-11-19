@@ -1,0 +1,18 @@
+name: Website-Aufgabe
+description: Eine klar umrissene Verbesserung für Obersten OHG.
+title: '[Website] '
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Ziel
+      description: Was soll für Besucher besser werden?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Fertig, wenn
+      description: Woran erkennen wir die fertige Änderung?
+    validations:
+      required: true
