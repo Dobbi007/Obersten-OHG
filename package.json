@@ -1,0 +1,14 @@
+{
+  "name": "obersten-ohg",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Obersten OHG — Websites, KI-Automatisierung und digitale Werkzeuge aus Koblenz.",
+  "scripts": {
+    "dev": "bun scripts/serve.mjs",
+    "build": "bun scripts/build.mjs",
+    "build:ci": "bun scripts/build.mjs --check",
+    "preview": "bun scripts/serve.mjs --dist"
+  },
+  "engines": { "bun": ">=1.2.0" }
+}
